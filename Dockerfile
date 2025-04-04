@@ -12,6 +12,6 @@ FROM scratch
 
 
 COPY --from=builder /app/go-tutorial .
-
+COPY ./views ./views
 
 CMD ["/go-tutorial"]
