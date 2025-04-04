@@ -1,0 +1,5 @@
+services:
+  myapp:
+    build: .
+    image: go-tutorial:latest
+    container_name: my-go-tutorial

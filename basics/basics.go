@@ -17,14 +17,14 @@ func Run_tutorial() {
 	runs := 34
 	fmt.Printf("Batsmen: %s\nRuns: %d\n", batsman, runs)
 
-	if runs >= 50 {
+	if runs >= 5 {
 		fmt.Println("Half-century!")
 	} else {
 		fmt.Println("Not a half-century!")
 	}
 
 	var wg sync.WaitGroup
-	for i := 0; i < 50; i++ {
+	for i := 0; i < 5; i++ {
 		wg.Add(1)
 		go printNumbers(i, &wg)
 	}
