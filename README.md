@@ -180,3 +180,14 @@ Hello, World!
       ```sh
       docker-compose up --build
       ```
+
+## Getting started with Go Fiber and Postgres
+
+1. **Install the below dependancies
+    - In the terminal, navigate to your project directory and run:
+      ```
+      go get github.com/gofiber/fiber/v2
+      go get gorm.io/gorm
+      go get gorm.io/driver/postgres
+      ```
+
